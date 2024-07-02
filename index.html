@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>Products</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <div class="nav-search" id="search-bar">
+                            <input type="text" id="search-bar" placeholder="Search products...">
+                        </div>
+                    </li>
+                </ul>
+            <div class="nav-hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>    
+    </nav>
+    <div class="image-section">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.CfPFvVZqmfw8wrOTeAbOjQHaEc&pid=Api&P=0&h=180" alt="Description of the image">
+        <div class="image-overlay">
+            <h2>Featured Products</h2>
+            <p>Premium Product 100% sure!.</p>
+            <a href="#" class="button">Shop Now</a>
+        </div>
+    </div>
+    
+    <main>
+        <div id="product-grid" class="grid-container"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>Portfolio</h2>
+                <ul>
+                    <li>Business & retail</li>
+                    <li>E-Commerce & Shopping</li>
+                    <li>Education & Organizations</li>
+                    <li>SocialMedia</li>
+                    <li>Industrial & Manufacturing</li>
+                    <li>Design & Development</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:nivethasri908@gmail.com">nivethasri908@gmail.com</a></p>
+                <p>Phone: <a href="tel:+91 6385802634">+91 6385802634</a></p>
+                <p>Address: 1234 Street ,sathyamangalam , India</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">LinkedIN</a>
+                    <a href="#" class="social-icon">Github</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="Product Image">
+            <div class="modal-content-details" id="modal-content-details"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
